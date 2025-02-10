@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEP Services - Professional Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* General Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; scroll-behavior: smooth; }
+        body { background-color: #f0f0f0; color: #fff; }
+        h1, h2, h3 { text-transform: uppercase; }
+        .container { width: 90%; margin: auto; text-align: center; padding: 50px 0; }
+        img { width: 100%; border-radius: 10px; }
+        button { padding: 12px 20px; background: #ff6600; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+        button:hover { background: #cc5500; }
+
+        /* Header */
+        header { position: fixed; top: 0; left: 0; width: 100%; background: #1b1e26; padding: 15px 0; text-align: center; z-index: 1000; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; transition: 0.3s; }
+        nav a:hover { color: #ff6600; }
+
+        /* Sections */
+        section { padding: 80px 0; }
+        #home { background: url('https://source.unsplash.com/1600x900/?construction,building') center/cover; height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; }
+        #home h1 { font-size: 50px; background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; }
+
+        /* About */
+        #about { background: #252a34; }
+        
+        /* Services */
+        #services { background: #1b1e26; }
+        .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; }
+        .service-card { background: #323741; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .service-card i { font-size: 50px; color: #ff6600; margin-bottom: 15px; }
+
+        /* Projects */
+        #projects { background: #252a34; }
+        .projects img { width: 100%; height: 300px; object-fit: cover; margin-top: 20px; }
+
+        /* Contact */
+        #contact { background: #1b1e26; }
+        .contact-form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+        .contact-form input, .contact-form textarea { width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        
+        /* Footer */
+        footer { background: #181b20; padding: 50px 0; color: #fff; text-align: center; }
+        .footer-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 20px; }
+        .footer-section h3 { color: #ff6600; }
+        .footer-section p, .footer-section a { color: #bbb; text-decoration: none; font-size: 14px; }
+        .footer-section a:hover { color: #ff6600; }
+        .socials i { margin: 10px; font-size: 20px; cursor: pointer; transition: 0.3s; }
+        .socials i:hover { color: #ff6600; }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div>
+            <h1>Expert MEP Solutions</h1>
+            <p>Providing high-quality Mechanical, Electrical, and Plumbing services.</p>
+            <button>Get a Quote</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are professionals delivering state-of-the-art MEP services for commercial and residential projects.</p>
+            <img src="https://source.unsplash.com/800x500/?engineers,blueprints" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Services We Offer</h2>
+            <div class="services">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Mechanical Services</h3>
+                    <p>HVAC, ventilation, and fire protection systems.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Electrical Services</h3>
+                    <p>Power distribution, lighting, and energy management.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Plumbing Services</h3>
+                    <p>Water supply, drainage, and piping systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="projects">
+                <img src="https://source.unsplash.com/800x500/?skyscraper,construction" alt="Project 1">
+                <img src="https://source.unsplash.com/800x500/?architecture,engineering" alt="Project 2">
+                <img src="https://source.unsplash.com/800x500/?urban,infrastructure" alt="Project 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Providing reliable MEP solutions with expertise.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a><br>
+                <a href="#services">Services</a><br>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@mepservices.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

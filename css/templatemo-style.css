@@ -115,7 +115,7 @@ img {
   	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  	background: #d54ab6;
+  	background: #c7c7c7dc;
   	border-radius: 0px;
    	border: none;
    	margin-top: 20px;
@@ -230,7 +230,7 @@ img {
   padding: 20px;
 }
 #team h4 {
-  color: #d54ab6;
+  color: #c7c7c7dc;
 }
 #team img {
   opacity: 0.8;
