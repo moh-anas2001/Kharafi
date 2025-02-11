@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(221, 221, 221, 0.5), rgba(59, 56, 65, 0.5)), url('../images/2.jpg');
+    background-size: cover;
+    color: white;
+}
+.hero-section h1{
+    color: #ffffff;
+}
+
+.service-option {
+    padding: 2rem;
+    margin: 1rem;
+    background:#271a4578;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.service-option h2 {
+color:  #74926f;
+}
+
+.service-option:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
